@@ -1,6 +1,7 @@
 body {
   background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701389836.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
 .banner {
