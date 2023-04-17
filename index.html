@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <h1>I CAN HAZ MEMEZ?</h1>
+    <h2>Fill out the form to start creating memes!</h2>
+
+    <div class="banner">
+      <form>
+        <label for="picture">Image URL</label>
+        <input
+          type="text"
+          id="url"
+          name="picture"
+          placeholder="What's the URL for your meme image?"
+        /><br />
+        <label for="textT">Text On Top</label>
+        <input
+          type="text"
+          id="topText"
+          name="textT"
+          placeholder="(Optional) What text do you want at the top of the meme?"
+        /><br />
+        <label for="textB">Text On Bottom</label>
+        <input
+          type="text"
+          id="botText"
+          name="textB"
+          placeholder="(Optional) What text do you want at the bottom of the meme?"
+        />
+        <br />
+
+        <button type="submit" id="btnSubmit">Add Meme</button>
+        <br />
+      </form>
+    </div>
+
+    <div class="memepage"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
